@@ -30,9 +30,9 @@ on:
       source:
         description: '选择要编译的源码'
         required: true
-        default: 'immwrt'
+        default: 'lean'
         type: choice
-        options: ['immwrt', 'lean']
+        options: ['lean', 'immwrt']
 
       target:
         description: '选择要编译的机型'
@@ -44,7 +44,7 @@ on:
       ip_address:
         description: '设置默认IP地址'
         required: false
-        default: '10.0.0.2'
+        default: '192.168.5.1'
 
       partsize:
         description: '设置rootfs大小'
